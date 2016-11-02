@@ -1,0 +1,80 @@
+body {
+    background-image: url(../images/alwetendevertellerachtergrond.jpeg);
+    background-size: 71em;
+    background-position: -17em 0px;
+    background-repeat: no-repeat;
+}
+
+img.terug {
+    width: 1.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+p.terug {
+    font-family: 'Nexa bold';
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -2em;
+    margin-left: 2.5em;
+    letter-spacing: 0.5em;
+    text-decoration: inherit;
+}
+
+section {
+    font-family: 'Nexa light';
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    width: 20em;
+    height: 25em;
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 4em;
+    color: white;
+    margin-top: -0.1em;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+@media (min-width: 48em) {
+    body {
+        background-size: 80em;
+        background-position: -10em 0px;
+    }
+    section {
+        width: 25em;
+        height: 37em;
+        margin-left: 47%;
+        margin-top: 1.5em;
+    }
+    h1 {
+        margin-left: 5%;
+        margin-top: 2.6em;
+        width: 5em;
+        position: fixed;
+    }
+}
+
+@media (min-width: 64em) {
+    body {
+        background-size: 140em;
+        background-position: -10em;
+    }
+    section {
+        width: 30em;
+        height: 25em;
+        margin-left: 5em;
+        margin-top: 15em
+    }
+    h1 {
+        margin-left: 13%;
+        margin-top: 0.3em;
+    }
+}

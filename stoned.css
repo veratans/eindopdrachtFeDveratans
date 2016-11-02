@@ -1,0 +1,132 @@
+body {
+    background-image: url(../images/stonedverhaalbackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    width: 12em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 40%;
+}
+
+img:hover {
+    margin-top: 35em;
+    position: fixed;
+}
+
+img.terug {
+    width: 1.7em;
+    margin-left: 5em;
+    margin-top: 2.1em;
+    position: fixed;
+    height: 2.5
+}
+
+p {
+    position: fixed;
+    font-family: 'Nexa bold';
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.5em;
+    margin-left: 5em;
+    margin-top: 4.5em;
+    display: none;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2em 2em 2em 2em;
+    overflow: scroll;
+    border-style: solid;
+    border-width: 1em;
+    border-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Nexa light';
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    height: 30em;
+    width: 15em;
+}
+
+article.noshow {
+    display: none;
+}
+
+section::-webkit-scrollbar {
+    width: 0.2em;
+    height: 0em;
+}
+
+section::-webkit-scrollbar-thumb {
+    background-color: #2800A0;
+    height: 0.1em;
+}
+
+article:hover {
+    -ms-transform: rotate(7deg);
+    /* IE 9 */
+    -webkit-transform: rotate(7deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+article {
+    margin-top: 1em;
+}
+
+
+/*--- MEDIAQUERIES ---*/
+
+@media (min-width: 48em) {
+    section {
+        width: 20em;
+        box-shadow: 0.1em 0.1em 0.1em 0.1em red;
+    }
+    img {
+        margin-left: 18em;
+        margin-bottom: 2em;
+    }
+    img.terug {
+        margin-left: 2em;
+    }
+     p {
+        display: flex;
+    }
+}
+
+@media (min-width: 64em) {
+    .rotate90 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-left: -5em;
+        margin-top: 10em;
+        position: fixed;
+        width: 25em;
+    }
+    section {
+        margin-top: 10em;
+        width: 20em;
+    }
+    section.noshow {
+         display: flex;
+    }
+    img.terug {
+        margin-top: -6.5em;
+        margin-left: 6em;
+    }
+    p {
+        margin-top: -7em;
+        margin-left: 10em;
+    }
+    img:hover {
+        margin-top: 10em;
+        margin-left: 62em;
+    }
+}
